@@ -1,0 +1,82 @@
+\documentclass{edelgas-resume}
+
+\setmainfont[
+ Ligatures=TeX,
+ BoldFont={Equity Text B Bold}, 
+ ItalicFont={Equity Text B Italic},
+ BoldItalicFont={Equity Text B Bold Italic},
+ ]{Equity Text B} %A Times New Roman Alternative
+
+\setsansfont[
+ Ligatures=TeX,
+ BoldFont={Concourse C7}, 
+ ItalicFont={Concourse T4 Italic},
+ BoldItalicFont={Concourse T4 Bold Italic},
+ Scale=MatchLowercase
+]{Concourse C4} %A Helvetica Alternative
+
+%Custom Variables
+\newcommand*{\name}{Hugo W.T. Erdmann} 
+
+
+%if desired, this will create a really nice customized footer
+\newcommand{\foot}{
+%{\name} --- \thepage\ of \pageref{LastPage}
+Edelgas Résumé --- Page \thepage\ of \pageref{LastPage}
+}
+
+\begin{document}
+%Header
+\namehead %prints your name
+\address{Outer Example Street 123, 06110 Halle, Germany}{(123) 456 7890}{hugo @ erdmanlabs.com} %your address
+
+%Education
+\sectionheading{Education}
+
+\organization{University Straßburg}{Straßburg, France}{1883}
+\begin{position}{}{}
+\item PhD thesis: \enquote{Condensationen und Metamorphosen der Phenolcrotonsäure}
+\end{position}
+
+\organization{Martin-Luther-Universität}{Halle-Wittenberg \& Munich, Germany}{1879--83}
+\begin{position}{}{}
+\item Study in natural sciences
+\item Academic interests: chemistry and mathematics
+\end{position}
+
+
+%Business Experience
+\sectionheading{Professional Experience}
+
+\organization{TH Charlottenburg}{Berlin, Germany}{1901--10}
+\begin{position}{Professor for Anorganic Chemistry}{}
+\item Research in technical application of \textit{dye chemistry}
+
+\end{position}
+
+\organization{Martin-Luther-Universität}{Halle-Wittenberg, Germany}{1883--95}
+\begin{position}{1st Assistant and Head of the University Chemistry Labs}{}
+\item Performed independent research
+\item Co-development of the \enquote{Volhard–Erdmann cyclization}
+\item Habilitation
+\end{position}
+
+
+%Other Work Experience
+\sectionheading{Other Work Experience}
+
+\organization{Hugo and Carl Erdmann's Chemistry Lab}{Halle, Germany}{1889-1910}
+\begin{position}{1st Assistant and Head of the university chemistry labs}{}
+\item Setup of an independent research facility
+\item Coined the term \enquote{Noble Gas}
+\item Rare gas research
+\item Dye chemistry research
+\end{position}
+
+%Skills
+\sectionheading{Other Skills}
+\vspace{-1em}
+Traveller, lecturer, i love sailing\\
+Languages: German, French, Greek and Latin.
+
+\end{document}
