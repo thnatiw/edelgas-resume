@@ -2,8 +2,6 @@
 
 A **one-page** résumé template in **XeTeX** based on [Matthew Butterick's Practical Typography example Résumé](http://practicaltypography.com/resumes.html).
 
-## Preview
-
 ## Dependencies
 
 1. Relies on Matthew Butterick's [**Equity**](http://practicaltypography.com/equity.html) and [**Concourse**](http://practicaltypography.com/concourse.html) fonts, which are available to buy on the [**Practical Typography**](http://practicaltypography.com/) website. 
@@ -42,3 +40,7 @@ You are free to use this template in any way you wish.
 Just keep in mind, that the idea came from Matthew Butterick, who generously allowed me to publish the template for others to use. So please buy his book, any of his fonts or give a donation to him. For more information visit [his website](http://practicaltypography.com/how-to-pay-for-this-book.html).
 
 Copyright 2016 T. Hnatiw
+
+## Preview
+
+![Preview Sample](https://github.com/thnatiw/edelgas-resume/blob/master/edelgas-resume.png)
