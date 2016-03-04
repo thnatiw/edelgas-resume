@@ -1,6 +1,11 @@
 # Edelgas-Résumé
 
-A **one-page** résumé template in **XeTeX** based on [Matthew Butterick's Practical Typography example Résumé](http://practicaltypography.com/resumes.html).
+A **one-page** résumé template in **LaTeX/XeTeX** based on [Matthew Butterick's Practical Typography example Résumé](http://practicaltypography.com/resumes.html).
+
+
+## Preview
+
+![Preview Sample](https://github.com/thnatiw/edelgas-resume/blob/master/edelgas-resume.png)
 
 ## Dependencies
 
@@ -29,7 +34,7 @@ Uses the following packages (which are available in your preferred TeX-distribut
 
 * CJK doesn't work in Times New Roman.
 
-The xeCJK package removes **all** whitespaces in non CJK passages. Either declare an new command for passages in CJK or try to resort to font that supports UTF8 characters. Alternatively set it in CJK throughout the whole document.
+  The xeCJK package removes **all** whitespaces in non CJK passages. Either declare an new command for passages in CJK or try to resort to font that supports UTF8 characters. Alternatively set it in CJK throughout the whole document.
 
 * Butterick already included his recommended letterspacing in his fonts. This could clash with the custom letterspacing defined in the cls. If you are changing your font, please check the output file and adjust it to your taste.
 
@@ -40,7 +45,3 @@ You are free to use this template in any way you wish.
 Just keep in mind, that the idea came from Matthew Butterick, who generously allowed me to publish the template for others to use. So please buy his book, any of his fonts or give a donation to him. For more information visit [his website](http://practicaltypography.com/how-to-pay-for-this-book.html).
 
 Copyright 2016 T. Hnatiw
-
-## Preview
-
-![Preview Sample](https://github.com/thnatiw/edelgas-resume/blob/master/edelgas-resume.png)
